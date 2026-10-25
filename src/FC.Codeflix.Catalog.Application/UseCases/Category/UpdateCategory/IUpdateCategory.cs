@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FC.Codeflix.Catalog.Application.UseCases.Category.Commom;
+using MediatR;
+
+namespace FC.Codeflix.Catalog.Application.UseCases.Category.UpdateCategory;
+public interface IUpdateCategory: IRequestHandler<UpdateCategoryInput, CategoryModelOutput>
+{
+}
